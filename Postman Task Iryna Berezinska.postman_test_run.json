@@ -1,0 +1,252 @@
+{
+	"id": "47ba1f75-e86a-455d-a45e-64759236faf2",
+	"name": "Postman Task Iryna Berezinska",
+	"timestamp": "2022-10-16T20:15:42.642Z",
+	"collection_id": "23814254-1af235a0-4cbb-4875-9859-97d18e5be40b",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 15,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ea7e7882-e2ae-4a49-a71d-4d53ada89519",
+			"name": "User creation",
+			"url": "https://petstore.swagger.io/v2/user",
+			"time": 146,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name has string": true,
+				"Status code is 200": true,
+				"Response time is less than 700ms": true,
+				"Response property matches environment variable": true
+			},
+			"testPassFailCounts": {
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response property matches environment variable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				146
+			],
+			"allTests": [
+				{
+					"Status code name has string": true,
+					"Status code is 200": true,
+					"Response time is less than 700ms": true,
+					"Response property matches environment variable": true
+				}
+			]
+		},
+		{
+			"id": "af35a521-2b97-42ee-a75d-e738aec160ad",
+			"name": "Check creation User",
+			"url": "https://petstore.swagger.io/v2/user/IrynaBerezinska",
+			"time": 145,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body contains string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body contains string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				145
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body contains string": true
+				}
+			]
+		},
+		{
+			"id": "02153a49-345b-409d-a31b-c350102571a6",
+			"name": "firstName and lastName updates",
+			"url": "https://petstore.swagger.io/v2/user/IrynaBerezinska",
+			"time": 147,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response contains string avilable firstName": true,
+				"Response contains string avilable lastName": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains string avilable firstName": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains string avilable lastName": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				147
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response contains string avilable firstName": true,
+					"Response contains string avilable lastName": true
+				}
+			]
+		},
+		{
+			"id": "13978a2d-5245-49e0-ac0f-01c657ef3722",
+			"name": "Check firstName and lastName updates",
+			"url": "https://petstore.swagger.io/v2/user/IrynaBerezinska",
+			"time": 145,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response contains string avilable firstName": true,
+				"Response contains string avilable lastName": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains string avilable firstName": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains string avilable lastName": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				145
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response contains string avilable firstName": true,
+					"Response contains string avilable lastName": true
+				}
+			]
+		},
+		{
+			"id": "3097b7ad-0762-4136-b73b-2f3208029216",
+			"name": "User deletion",
+			"url": "https://petstore.swagger.io/v2/user/IrynaBerezinska",
+			"time": 145,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				145
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1353399f-9fe4-46d9-a5da-2b6d9e4b681c",
+			"name": "Check Deletion User",
+			"url": "https://petstore.swagger.io/v2/user/IrynaBerezinska",
+			"time": 145,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				145
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 873,
+	"collection": {
+		"requests": [
+			{
+				"id": "ea7e7882-e2ae-4a49-a71d-4d53ada89519",
+				"method": "POST"
+			},
+			{
+				"id": "af35a521-2b97-42ee-a75d-e738aec160ad",
+				"method": "GET"
+			},
+			{
+				"id": "02153a49-345b-409d-a31b-c350102571a6",
+				"method": "PUT"
+			},
+			{
+				"id": "13978a2d-5245-49e0-ac0f-01c657ef3722",
+				"method": "GET"
+			},
+			{
+				"id": "3097b7ad-0762-4136-b73b-2f3208029216",
+				"method": "DELETE"
+			},
+			{
+				"id": "1353399f-9fe4-46d9-a5da-2b6d9e4b681c",
+				"method": "GET"
+			}
+		]
+	}
+}
